@@ -18,8 +18,8 @@ export const Projects = () => {
       qualificationInfo={qualificationInfo}
       isLoading={isLoading}
       className="bg-white dark:bg-black"
-      circleClassName="bg-pink-300 dark:bg-pink-300"
-      lineClassName="from-pink-700 via-pink-600"
+      circleClassName="bg-sky-400 dark:bg-sky-400"
+      lineClassName="from-sky-500 via-sky-500"
     />
   );
 };

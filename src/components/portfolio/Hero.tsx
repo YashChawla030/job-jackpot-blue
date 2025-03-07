@@ -15,10 +15,10 @@ export const Hero = () => {
   const { isEditing } = useAppStore();
 
   const getBackgroundColorRGBA = (opacity: number) =>
-    `rgba(255, 182, 193, ${opacity})`;
+    `rgba(50, 204, 255, ${opacity})`;
 
   const getBorderColor = (borderOpacity: number) =>
-    `hsl(351, 100%, ${borderOpacity}%)`;
+    `hsla(202, 100%, 50%, ${borderOpacity})`;
 
   return (
     <HeroEditableWithAuth

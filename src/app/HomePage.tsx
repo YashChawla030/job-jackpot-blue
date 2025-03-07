@@ -29,7 +29,7 @@ export default function HomePage({ portfolio, url }: HomePageProps) {
       <div className="pb-5 relative">
         <PasswordInput />
         <ApplyChangesButton />
-        <ScrollProgressView className="from-pink-400 to-pink-700 via-pink-500" />
+        <ScrollProgressView className="from-sky-400 to-sky-700 via-sky-500" />
         <Dock />
         <Hero />
         <Skills />
